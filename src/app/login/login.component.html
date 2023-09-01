@@ -1,0 +1,37 @@
+<div class="login-container">
+  <img class="film" src="assets/images/film.png" alt="" />
+  <div class="logo">CineRanks</div>
+  <div class="desc">
+  Are you a movie buff looking for the perfect platform to discover, rate,
+  and discuss your favorite films? Look no further! Welcome to CineRanks,
+   where movie enthusiasts gather to share their passion for cinema.
+
+
+  </div>
+  <div class="login-form">
+    <div class="form-group">
+      <label for="uname">Username</label>
+      <input
+        type="text"
+        name="uname"
+        class="form-control"
+          [(ngModel)]="username"
+
+      />
+    </div>
+    <div class="form-group">
+      <label for="pword">Password</label>
+      <input
+        type="password"
+        name="pword"
+        class="form-control"
+        [(ngModel)]="password"
+
+      />
+    </div>
+    <div class="btn-container" class="btn-container d-flex justify-content-center align-items-center">
+      <div class="error">{{ errorMsg }}</div>
+      <button class="btn btn-dark" (click)="login()" >Login</button>
+    </div>
+  </div>
+</div>
