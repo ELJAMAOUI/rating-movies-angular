@@ -29,6 +29,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ![rating (1)](https://github.com/ELJAMAOUI/rating-movies-angular/assets/75399470/77ec114d-7bdc-4adc-80db-a469a6c7f741)
+
+
+
+
+
+
 ![rantin2 (1)](https://github.com/ELJAMAOUI/rating-movies-angular/assets/75399470/12ac6dc1-2616-427c-8912-1f7483a9bbf5)
 
 
